@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+}
+#divmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+#divmain> div > img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    
+}
+#divmain> div{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 25px;
+}
+#divmain > div >h1{
+    font-size: 25px;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    line-height: 25px;
+}
+#divmain>div>button{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: aqua;
+    color: black;
+    border-radius: 4px;
+
+}
